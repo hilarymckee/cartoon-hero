@@ -1,6 +1,8 @@
 body{
 	margin: 0;
-	font-family: helvetica, arial, sans-serif;
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 header{
@@ -10,12 +12,53 @@ header{
 	padding-bottom: 50px;
 }
 
+h1, h2{
+	font-family: 'Monoton', cursive;
+	text-align: center;
+}
 header h1{
 	color: black;
+	font-size: 50px;
+	max-width: 100%;
 }
 
 header img{
 	border-radius: 170px;
     width: 300px;
     border: 20px solid maroon
+
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px 20px 20px 100px;
+	background-color: maroon;
+}
+
+main img{
+	max-width: 100%;
+}
+a{
+	color: black;
+}
+a:hover{
+	color: white;
+	background-color: red;}
+
+footer{
+	text-align: center;
+	background-color: burlywood;
+	color: white;
+	padding: 20px;
+}
+footer p{
+	margin: 0;
+}
+
+p.caption{
+	color: grey;
+	text-align: center;
+	margin-top: 0;
+
 }
