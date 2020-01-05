@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	font-family: helvetica, arial, sans-serif;
+}
+
+header{
+	background-color: burlywood;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header h1{
+	color: black;
+}
+
+header img{
+	border-radius: 170px;
+    width: 300px;
+    border: 20px solid maroon
+}
